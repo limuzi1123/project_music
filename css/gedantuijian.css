@@ -22,13 +22,11 @@
 }
 .bottom_bofang{
     position:absolute;
+    width:64px;height:64px;
     top:60px;
     right:75px;
     display:none;
 }
-/*.bottom_img:hover{*/
-    /*cursor: pointer;*/
-/*}*/
 .bottom:hover .bottom_bofang{
     cursor: pointer;
     display:block;
