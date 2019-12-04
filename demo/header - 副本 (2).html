@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .row{
+            flex-wrap: nowrap;
+        }
+        .container div{
+            margin: 0px 0px;
+        }
+        .img-a{
+            display: block;
+            width: 150px;
+            height: 100px;
+            line-height: 100px;
+            color: #000;
+
+        }
+        .img-a{
+            text-decoration: none!important;
+            color: #000000 !important;
+        }
+        .a1{
+            line-height: 100px;
+            display: block;
+            width: 100px;
+            height: 100px;
+            font-size: 18px;
+            color:#fff;
+            background-color: #4fbbe7;
+        }
+        .a1:hover{
+            text-decoration: none;
+            color:#fff;
+        }
+        .a2{
+            line-height: 100px;
+            display: block;
+            width: 100px;
+            height: 100px;
+            font-size: 18px;
+            color:#000;
+        }
+        .a2:hover{
+            color: #4fbbe7;
+            text-decoration:none;
+        }
+        .a3{
+            display: block;
+            line-height: 100px;
+            width: 100px;
+            height: 100px;
+            font-size: 18px;
+            color:#000;
+            text-align: center;
+        }
+        .a3:hover{
+            color: #4fbbe7;
+            text-decoration:none;
+        }
+        .a4{
+            margin-top: 35px;
+            display:block;
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 13px;
+            color: #fff;
+            text-align: center;
+            background: #4fbbe7;
+            border-radius: 3px;
+        }
+        .a4:hover{
+            color: #fff;
+            text-decoration:none;
+            background: #197fc2;
+        }
+        .a5{
+            display:block;
+            width: 80px;
+            height: 30px;
+            margin-top: 35px;
+            margin-left: 10px;
+            line-height: 30px;
+            border:1px solid #aaa;
+            border-radius: 3px;
+            font-size: 13px;
+            color: #197fc2;
+            text-align: center;
+        }
+        .a5:hover{
+            color: #197fc2;
+            text-decoration:none;
+            background: #eeeeee;
+        }
+        .button1{
+            border: 1px solid #aaa!important;
+            border-left: 0px solid #fff3cd;!important;
+            width: 40px;
+            height: 40px;
+            padding: 0px;
+            background-image: url("img/query.png");
+        }
+        .input1{
+            padding-left: 5px;
+            width: 200px;
+            height: 40px;
+        }
+        .div-input{
+            margin-top: 30px!important;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="no-gutters d-flex justify-content-around">
+        <div class="d1">
+            <a href="" class="img-a">
+                <img src="img/logo.png" alt="">
+                <b class="font-20px">大音乐</b>
+            </a>
+        </div>
+        <div class="d-flex justify-content-around">
+            <a href="" class="a1 text-center">音乐馆</a>
+            <a href="" class="a2 text-center">我的音乐</a>
+            <a href="" class="a2 text-center">客户端</a>
+            <a href="" class="a2 text-center">歌手入驻</a>
+        </div>
+        <div class="row div-input">
+            <input type="text" placeholder="搜索关键字" id="seach" onkeypress="query2()" class="input1">
+            <input type="button" class="button1" onclick="query1()">
+        </div>
+        <div class="row m-0">
+            <a href="" class="a3">登录</a>
+            <a href="" class="a4">会员开通</a>
+            <a href="" class="a5">付费充值</a>
+        </div>
+    </div>
+
+    <script>
+        function query1() {
+            var $seach=seach.value;
+            console.log($seach)
+        }
+        function query2() {
+            var $seach=seach.value
+            if(event.keyCode=="13"){
+                alert(`输入内容为:${$seach}`);
+            };
+        }
+    </script>
+</div>
+</body>
+</html>
