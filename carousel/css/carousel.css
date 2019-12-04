@@ -1,0 +1,6 @@
+#demo{
+  margin-top:50px;
+}
+.carousel-indicators .active{
+  background:red;
+}

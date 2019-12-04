@@ -1,0 +1,9 @@
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+}
+/*
+.breadcrumb-item a img{
+    transition: all 1s;
+}
+.breadcrumb-item a img:hover{background:#f00;}
+*/

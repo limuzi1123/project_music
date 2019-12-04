@@ -1,0 +1,62 @@
+.login{
+    width:800px;
+    height:600px;
+    border:1px solid #e9ecef;
+    margin:0 auto;
+}
+.login_top .h5:hover{
+    color:#4fbbe7;
+    text-decoration: none;
+}
+.login_left{border-right:1px dashed #cccccc;}
+.left_input{text-align: center;}
+.user_input{
+    border:0;outline:0;
+    height:2.5rem;
+    border:1px solid #4fbbe7;
+    width:20rem;
+    border-radius: 3%;
+}
+.user_input:hover{
+    border-color:#c82333 ;
+}
+.user_login{
+    display:block;
+    width:20rem;
+    height:2.5rem;
+    line-height: 2.5rem;
+    background:#34ce57;
+    margin:15px auto 0;
+}
+.erweima{
+    text-align: center;
+}
+.login_left_bottom{font-size:12px;float:right;}
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+}
+.login_right1,.login_right2{
+    font-size:12px;
+}
+/*.login_bottom{
+    width:13rem;
+    height:3rem;
+    background-image:-webkit-linear-gradient(right,#4fbbe7,#28a745);
+-moz-linear-gradient(right,#4fbbe7,#28a745);
+-o-linear-gradient(right,#4fbbe7,#28a745);
+-ms-linear-gradient(right,#4fbbe7,#28a745);
+    color:#111;
+    text-align: center;
+    font-size:16px;
+    margin:0 auto;
+    margin-top:2rem;
+    line-height: 3rem;
+    border-radius: 5%;
+}*/
+.btn{
+    display:block;
+    width:17rem;
+    height:3rem;
+    margin:32px auto 0;
+    border-radius: 20px;
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+div {
+  color: #0c5490; }
+
+/*练习*/
+.my_bg1, .my_bg2 {
+  background: linear-gradient(to bottom, #0aa1ed, pink); }
+
+.my_bg2:hover {
+  background: green; }
+
+/*练习2*/
+p {
+  max_width: 30000px;
+  min_width: 3px; }

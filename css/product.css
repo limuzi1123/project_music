@@ -1,0 +1,27 @@
+.bg-gra{
+    background:linear-gradient(to bottom,#eee,#e1e1e1)
+}
+.text1{font-size:17px;}
+.my_input{
+    width:10%;
+    border:0;outline:0;
+}
+.page-link{border-radius:0.25rem !important; border-color:#ccc;}
+.page-item+.page-item{margin-left:0.8rem;}
+.page-link:hover{border-color:#007bff;}
+.page-item .active .page-link{background-color:#007bff;}
+.border-top{border-top: 1px dashed #dee2e6 !important;}
+.my_btn{
+    width:1.5rem;height:1.5rem;
+    border:0;outline:0;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+.my_input2{
+    width:20%;
+    border:0;outline:0;
+    text-align:center;
+}
+

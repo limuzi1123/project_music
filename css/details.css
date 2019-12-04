@@ -1,0 +1,26 @@
+.breadcrumb-item + .breadcrumb-item::before{
+    content: ">";
+}
+.img_trans{
+    transition: 1s;
+}
+.img_trans:hover{
+    transform: scale(1.1);
+}
+.right_h5{
+    margin-bottom: 0.1rem !important;
+}
+.text_span{
+    font-size:36px !important;
+}
+.btn-outline-secondary{color:#666;}
+.btn-outline-secondary:hover{
+    color: #007bff !important;
+    background-color: #fff;
+    border-color: #007bff;
+}
+.sl_input{
+    width:2.5rem;
+    text-align:center;
+}
+

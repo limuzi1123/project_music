@@ -1,0 +1,25 @@
+.login{
+    width:800px;
+    height:600px;
+    border:1px solid #e9ecef;
+    margin:0 auto;
+}
+.wechat{
+    text-align:center;
+}
+.img_wechat{
+    width:15rem;
+}
+.wechat_p{
+    font-size:12px;
+    text-align: center;
+    color:#333;
+    margin-top:15px;
+}
+.btn{
+    display:block;
+    width:17rem;
+    height:3rem;
+    margin:50px auto 0;
+    border-radius: 20px;
+}

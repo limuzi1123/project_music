@@ -1,0 +1,47 @@
+.login{
+    width:600px;
+    height:600px;
+    border:1px solid #e9ecef;
+    margin:0 auto;
+}
+.login_top .h5:hover{
+    color:#4fbbe7;
+    text-decoration: none;
+}
+.login_left{border-right:1px dashed #cccccc;}
+.code{
+    width:10rem;
+}
+.erweima{
+    text-align: center;
+}
+.login_left_bottom{font-size:12px;float:right;}
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+}
+.login_right1,.login_right2{
+    font-size:12px;
+}
+/*
+.login_bottom{
+    width:13rem;
+    height:3rem;
+    background-image:-webkit-linear-gradient(right,#4fbbe7,#28a745);
+        -moz-linear-gradient(right,#4fbbe7,#28a745);
+        -o-linear-gradient(right,#4fbbe7,#28a745);
+        -ms-linear-gradient(right,#4fbbe7,#28a745);
+    color:#111;
+    text-align: center;
+    font-size:16px;
+    margin:0 auto;
+    margin-top:2rem;
+    line-height: 3rem;
+    border-radius: 5%;
+}*/
+.btn{
+    display:block;
+    width:17rem;
+    height:3rem;
+    margin:32px auto 0;
+    border-radius: 20px;
+}
