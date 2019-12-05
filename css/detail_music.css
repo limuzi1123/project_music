@@ -1,0 +1,24 @@
+.details{
+    width:1000px;
+}
+.top_left_img{
+    width:260px;height:260px;
+    margin-left:30px;
+}
+a:hover{text-decoration: none;}
+.img2{height:20px;}
+.top_middle{
+    border:1px solid #c8cbcf;
+}
+.img4{height:20px;}
+th{
+    padding: 20px;
+}
+td{
+    padding: 15px;
+}
+.detail_bottom{text-align: center;}
+.pl_input{
+    width:1000px;
+    height:100px;
+}
