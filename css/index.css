@@ -1,0 +1,511 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	cursor:pointer;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	letter-spacing: 15px;
+	text-align: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6
+{
+	width: 100%;
+	min-width: 1150px;
+  background: linear-gradient(91deg,#f1eefc,#9dc6ff 70%,#a5bcff);
+	padding: 60px 0;}
+
+.box1>div,
+.box2>div,
+.box3>div,
+.box4>div,
+.box5>div,
+.box6>div{
+	margin: 0 auto;
+	max-width: 1200px;
+	min-width: 1150px;
+}
+
+.maina{
+	margin: 20px auto;
+	text-align: center;
+}
+
+.maina ul{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.maina>ul li {
+	padding: 20px 30px;
+}
+
+.maina>ul li:first-child {
+	color: #31C27C;
+}
+
+.maina>ul li a:hover {
+	color: #31C27C;
+}
+
+.mainabanner {
+	width: 100%;
+}
+
+.mainabanner ul {
+	width: 100%;
+}
+
+.mainabanner ul li {
+	font-size: 14px;
+	width: 20%;
+}
+
+.mainabanner ul li p {
+	margin-top: 10px;
+	margin-left: 5px;
+	text-align: left;
+}
+
+.mainabanner ul li p:last-child {
+	margin-top: 5px;
+	color: gray;
+}
+
+.mainabanner ul li img {
+	width: 224px;
+	height: 224px;
+}
+
+.box2 {
+	text-align: center;
+}
+
+.mainb1 {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.mainb1 button {
+	background: #F5F5F5;
+	border: 1px solid #C9C9C9;
+	width: 100px;
+	height: 40px;
+}
+
+.mainb1 ul {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-left: -90px;
+}
+
+.mainb1 ul {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.mainb1>ul li {
+	padding: 20px 30px;
+}
+
+.mainb1>ul li:first-child {
+	color: #31C27C;
+}
+
+.mainb1>ul li:hover {
+	color: #31C27C;
+}
+
+.mainb2 {
+	width: 100%;
+}
+
+.mainb2 ul {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.mainb2 ul li {
+	font-size: 14px;
+	width: 31%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0px 10px;
+	padding: 10px 0px;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.mainb2 ul li>p {
+	color: gray;
+}
+
+.mainb2 ul li:nth-child(7),
+.mainb2 ul li:nth-child(8),
+.mainb2 ul li:nth-child(9) {
+	border: 0px;
+}
+
+.mainb2 ul li img {
+	width: 86px ;
+	height: 86px;
+}
+
+.mainb2 ul li div {
+	margin: 0 10px;
+	text-align: left;
+	flex: 2;
+}
+
+.mainb2 ul li div p:hover {
+	color: #31C27C;
+}
+
+.mainb2 ul li div p {
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	color: black;
+}
+
+.mainb2 ul li div p:last-child {
+	color: gray;
+	margin-top: 10px;
+}
+.box3{
+	height: 430px;
+}
+.box3 h1{
+	margin: 20px 0px;
+}
+.banner {
+	width:100%;
+	position:relative;
+}
+.banner div {
+	height:250px;
+	width:100%;
+	line-height:250px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.banner div img{
+	width: 100%;
+	height: 100%;
+}
+.one {
+	animation:one 10s linear infinite;
+}
+.two {
+	animation:two 10s linear infinite;
+}
+.three {
+	animation:three 10s linear infinite;
+	
+}
+/*第一个盒子的动画*/
+@keyframes one {
+	0% {
+	opacity:1
+}
+10% {
+	opacity:1
+}
+20% {
+	opacity:0
+}
+30% {
+	opacity:0
+}
+40% {
+	opacity:0
+}
+50% {
+	opacity:0
+}
+60% {
+	opacity:0
+}
+70% {
+	opacity:0
+}
+80% {
+	opacity:0
+}
+90% {
+	opacity:1
+}
+100% {
+	opacity:1
+}
+}/*第二个盒子的动画*/
+@keyframes two {
+	0% {
+	opacity:0
+}
+10% {
+	opacity:0
+}
+20% {
+	opacity:1
+}
+30% {
+	opacity:1
+}
+40% {
+	opacity:0
+}
+50% {
+	opacity:0
+}
+60% {
+	opacity:0
+}
+70% {
+	opacity:0
+}
+80% {
+	opacity:0
+}
+90% {
+	opacity:0
+}
+100% {
+	opacity:0
+}
+}/*第三个盒子的动画*/
+@keyframes three {
+	0% {
+	opacity:0
+}
+10% {
+	opacity:0
+}
+20% {
+	opacity:0
+}
+30% {
+	opacity:0
+}
+40% {
+	opacity:1
+}
+50% {
+	opacity:1
+}
+60% {
+	opacity:0
+}
+70% {
+	opacity:0
+}
+80% {
+	opacity:0
+}
+90% {
+	opacity:0
+}
+100% {
+	opacity:0
+}
+}
+
+.mainc{
+	margin: 20px auto;
+	text-align: center;
+}
+.mainc1{
+	display: flex;
+	align-items: center;
+}
+.mainc1 p{
+	width: 40px;
+	align-items: flex-end;
+}
+.mainc1 p:hover{
+	color: #31C27C;
+}
+.mainc1 ul{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.mainc1 ul li {
+	padding: 20px 30px;
+}
+
+.mainc1 ul li:first-child {
+	color: #31C27C;
+}
+
+.mainc1 ul li:hover {
+	color: #31C27C;
+}
+.mainc2 ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.mainc2 ul li {
+	font-size: 14px;
+	width: 20%;
+	margin-top: 20px;
+}
+
+.mainc2 ul li p {
+	margin-top: 10px;
+	margin-left: 5px;
+	text-align: left;
+}
+
+.mainc2 ul li p:last-child {
+	margin-top: 5px;
+	color: gray;
+}
+
+.mainc2 ul li img {
+	width: 224px;
+	height: 224px;
+}
+.maind div:first-child{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.maind div:first-child span{
+	position: absolute;
+	right: 0;
+}
+.maind div:first-child span:hover{
+	color: #31C27C;
+}
+.maind1 {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.maind>div>h1{
+	margin-top:30px;
+}
+.maine{
+	margin: 20px auto;
+	text-align: center;
+}
+
+.maine ul{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.maine>h1{margin-top:30px; }
+
+.maine>ul li {
+	padding: 20px 30px;
+}
+
+.maine>ul li:first-child {
+	color: #31C27C;
+}
+
+.maine>ul li:hover {
+	color: #31C27C;
+}
+
+.maine2 ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.maine2 ul li {
+	font-size: 14px;
+	width: 20%;
+	margin-top: 30px;
+}
+
+.maine2 ul li p {
+	margin-left: 5px;
+	text-align: left;
+}
+.maine2 ul li p:nth-child(2){
+	margin-top: 5px;
+}
+
+.maine2 ul li p:nth-child(3),.maine2 ul li p:last-child {
+	color: gray;
+}
+
+.maine2 ul li img {
+	width: 224px;
+	height: 130px;
+}
+.maine2 ul li p{
+display: flex;
+align-items: center;
+
+}
+.maine2 ul li p img{
+	width: 20px;
+	height: 12px;
+	margin-right: 10px;
+}
+.cc{
+	width: 100%;
+	height: 400px;
+	margin:  0 auto;
+	border: 1px solid black;
+	overflow: hidden;
+}
+.dd{
+	height: 500px;
+	animation: lunbo 10s infinite linear;
+}
+.dd .ff{
+	list-style: none;
+	float: left;
+}
+.dd .ff img{
+	width: 126px;
+	height: 86px;
+}
+@keyframes lunbo{
+	from{
+		margin-left: 0px;
+	}
+	to{
+		margin-left: -882px;
+	}
+}
+.cc:hover .dd{
+	animation-play-state: paused;
+	/*鼠标滑过时图片停止*/
+}
+.cc:hover .dd .ff{
+	opacity: .5;
+	/*鼠标划过时设置透明*/
+}
+.cc .dd .ff:hover{
+	opacity: 1;
+}
