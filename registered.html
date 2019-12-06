@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .row{
+            flex-wrap: nowrap
+        }
+        div{
+            margin:0px !important;padding:0px !important;
+        }
+        .d1{
+            width: 110px;
+            float: left;
+            margin:20px 0 0 40px !important;
+        }
+        .d1 p{
+            font-size: 24px;
+            line-height: 45px;
+            color: #999;
+        }
+        .d1 div{
+            width: 60px;
+            height: 60px;
+        }
+        .img1{
+            position: absolute;
+            z-index:1;
+        }
+        .w-30{
+            width: 32%;
+        }
+        /*          右边          */
+        .p1{
+            width: 320px;height: 35px;
+            margin:120px 0 0 510px;
+            font-size: 40px;
+            line-height: 31px;
+        }
+        .a1{
+
+            color: #999;
+            margin-top: 30px;
+        }
+        .a1:hover{
+            color: #197fc2;
+            text-decoration:none;
+        }
+        .a1-1{
+            margin-right: 40px;
+        }
+        .p2{
+            width: 65px;height: 17px;
+        }
+        .ml-450px{margin-left: 510px}
+        .p3{
+            font-size: 25px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<!--左边轮播-->
+    <div class="w-30 d-flex position-fixed">
+        <div class="carousel" data-ride="carousel" id="demo">
+            <!--轮播图片-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/login/bg1.jpg" alt="" class="w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/login/bg2.jpg" alt="" class="w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/login/bg3.jpg" alt="" class="w-100">
+                </div>
+            </div>
+
+        </div>
+        <div class="d1 img1 row ">
+            <div>
+                <img class="w-100" src="demo/img/logo.png" alt="">
+            </div>
+            <p>酷趣</p>
+        </div>
+    </div>
+        <!--右边-->
+    <div class="w-70 row">
+        <div>
+            <div class="row">
+                <div>
+                    <p class="p1">欢迎来到酷趣音乐</p>
+                </div>
+                <div class="row">
+                    <a class="a1" href="">
+                        <p class="p2">繁体中文</p>
+                    </a>&nbsp;&nbsp;&nbsp;
+                    <a class="a1 a1-1" href="">
+                        <p class="p2">English</p>
+                    </a>
+                    <a class="a1" href="">
+                        <p class="p2">意见反馈</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="ml-450px p3">每一天，乐在沟通</p>
+</body>
+</html>
