@@ -3,6 +3,7 @@
     height:600px;
     border:1px solid #e9ecef;
     margin:0 auto;
+    /*vertical-align:middle;*/
 }
 .login_top .h5:hover{
     color:#4fbbe7;
