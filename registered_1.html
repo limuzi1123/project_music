@@ -38,9 +38,9 @@
         }
         /*          右边          */
         .p1{
-            width: 320px;height: 35px;
-            margin:120px 0 0 510px;
-            font-size: 40px;
+            width: 450px;height: 35px;
+            margin:160px 0 0 600px;
+            font-size: 50px;
             line-height: 31px;
         }
         .a1{
@@ -58,10 +58,52 @@
         .p2{
             width: 65px;height: 17px;
         }
-        .ml-450px{margin-left: 510px}
+        .ml-450px{margin-left: 600px}
         .p3{
             font-size: 25px;
-            margin-top: 20px;
+            margin-top: 30px;
+        }
+        .input1,.input2{
+            width: 600px;
+            height: 70px;
+            border-radius: 4px;
+            border: 1px solid #999;
+            font-size: 20px;
+            padding-left: 10px;
+        }
+        .input1{margin-bottom: 25px;margin-top: 40px}
+        .input2{margin-bottom: 20px}
+        .button1{
+            width:600px;height: 80px;
+            border-radius: 4px;
+            border: 1px #3083ff solid;
+            background-color: #3487ff;
+            color: #fff;
+            text-align: center;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        .button1:hover{
+            background-color:#3487f0;
+        }
+        .input3{
+            width: 15px;
+            height: 15px;
+        }
+        .a2{
+            font-size: 14px;
+            color: #999;
+        }
+        .a2:hover{
+            text-decoration: none;
+            color: #3487f0;
+        }
+        .p4{
+            margin-top: 60px;
+            padding-left: 150px;
+            font-size: 12px;
+            text-align: center;
+            color: #999;
         }
     </style>
 </head>
@@ -111,6 +153,33 @@
             </div>
         </div>
     </div>
-    <p class="ml-450px p3">每一天，乐在沟通</p>
+    <p class="ml-450px p3">每天一乐,乐在酷趣</p>
+    <div>
+        <input type="text" class="ml-450px input1" placeholder="用户名" id="uname"/>
+        <div class="d2"></div>
+        <input type="password" class="ml-450px input2" placeholder="密码" id="upwd"/>
+        <div class="d3"></div>
+        <br/>
+        <button class="ml-450px button1" onclick="reg()">立即注册</button>
+        <br/>
+        <input type="checkbox" id="gz" name="reg" value="1" class="ml-450px input3"/>
+        <label for="gz">
+            <a href="" class="a2">我已阅读并同意相关服务条款和隐私政策</a>
+        </label>
+        <div id="d4"></div>
+        <p class="p4">Copyright © 1998-2019Tencent All Rights Reserved</p>
+    </div>
+    <script>
+        function reg(){
+            let $uname=uname.value;
+            let $upwd=upwd.value;
+            let $gz=gz.value;
+            console.log(gz.check)
+            if (gz.check==false) {
+                d4.innerHTML="请先同意服务条款";
+                return;}
+            alert(`用户名为:${$uname},密码为:${$upwd}`)
+        }
+    </script>
 </body>
 </html>
