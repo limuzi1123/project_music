@@ -1,0 +1,28 @@
+.details{
+    width:1000px;
+}
+.top_left_img{
+    /*width:260px;height:260px;*/
+    margin-left:30px;
+}
+.singer,.zhuanji{color:#333;}
+.singer:hover,.zhuanji:hover{
+    color:#4fbbe7;
+    text-decoration: none;
+}
+.detail_bottom{text-align: center;}
+.pl_input{
+    width:1000px;
+    height:100px;
+}
+.pinglun{
+    width:60px;
+    height:60px;
+}
+.pinglun_text{
+    font-size:14px;
+}
+.center_bk{
+    background-image:url("../img/detail/liyuchun.jpg");
+    background-size:1000px 662px;
+}

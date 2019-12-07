@@ -155,7 +155,6 @@ h1 {
 	justify-content: space-between;
 	margin: 0px 10px;
 	padding: 10px 0px;
-	border-bottom: 1px solid #F2F2F2;
 }
 
 .mainb2 ul li>p {
@@ -510,3 +509,30 @@ align-items: center;
 .cc .dd .ff:hover{
 	opacity: 1;
 }
+.box4_img{
+	position:relative;
+}
+.box4_img:hover{
+	transform:scale(1.01);
+	transition: opacity .5s ease;
+}
+.bofang{
+	position:absolute;
+	width:64px !important;
+	height:64px !important;
+	top:75px;
+	right:90px;
+	display:none;
+}
+.bofang:hover{
+	transform: scale(1.1);
+}
+.box4_img:hover .bofang{
+	cursor: pointer;
+	display:block;
+}
+.box2_a{
+	color:#000;
+	text-decoration: none;
+}
+.box2_a:hover{color:#4fbbe7}

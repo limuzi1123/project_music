@@ -27,8 +27,8 @@
     display:none;
 }
 /*.bottom_img:hover{*/
-    /*cursor: pointer;*/
-/*}*/
+    /*cursor: pointer;}*/
+
 .bottom:hover .bottom_bofang{
     cursor: pointer;
     display:block;

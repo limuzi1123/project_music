@@ -1,0 +1,44 @@
+*{margin:0;padding:0;}
+.container{margin:0px 10px;}
+.p1{
+    font-size: 48px;
+    font-weight:bold ;
+    text-align: center;
+    padding-top:100px;
+}
+.p2{font-size:24px;text-align: center;}
+.top{
+    width:1300px;height:800px;
+    margin:0 auto;
+    background-image:url("../img/kehuduan/k2.jpg");
+    background-repeat:no-repeat;
+}
+.top_pc{
+    color:#000;
+    font-size: 48px;
+    font-weight:bold ;
+    text-align: center;
+    margin-top:50px;
+}
+.top_btn{
+    text-align: center;
+}
+.btn-success{
+    font-size:24px;
+    padding:10px 40px;
+    margin-bottom:50px;
+}
+.banben img{
+    width:100px;height:100px;
+    margin-top:20px;
+}
+.banben p{
+    font-size: 16px;
+    color:#000;
+    text-align: center;
+    margin-top:10px;
+}
+.my_header,.my_footer{
+    width:100%;
+}
+.my_footer{height:30rem;}
