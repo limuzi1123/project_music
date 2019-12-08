@@ -1,0 +1,34 @@
+*{margin: 0;padding: 0}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: ">";}
+body{
+    background: linear-gradient(91deg,#f1eefc,#9dc6ff 70%,#a5bcff);
+}
+.d1 img{
+    position: absolute;
+    top: 9%;
+    left: 2%;
+    height: 500px;
+    width: 500px;
+}
+.btn{
+   position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.r3{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+}
+.d2{
+    position: absolute;
+    top: 65%;
+    right: 3%;
+}
+.d3 a{
+    color:#dc3545;
+}
+a:hover{
+    text-decoration: none;
+}
